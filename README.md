@@ -25,7 +25,7 @@ Each task requires:
 Predict whether a loan applicant is likely to default on a loan.
 ## Approach:
 - Handle missing values in dataset.
-- Used Logistic Regression Model for predicting the target feature Loan_Status.
+- Train Logistic Regression Model for predicting the target feature Loan_Status.
 - Evaluate model performance using accuracy, confusion matrix and classification report.
 ## Results and Insights:
 - Model used is **Logistic Regressio**.
@@ -39,7 +39,7 @@ Identify customers who are likely to leave the bank.
 - Cleaned the dataset and drop un-necessary columns.
 - Encoded categorical features using label encoder.
 - Scaled the features using Standard Scaler.
-- Used **Decision Tree Classifier** model as the target column (Exited) is discrete.
+- Train **Decision Tree Classifier** model as the target column (Exited) is discrete.
 - Evaluated performance of the model.
 - Analyze Feature Importance.
 ## Results and Insights:
@@ -52,7 +52,7 @@ Estimate the medical insurance claim amount based on personal data.
 ## Approach:
 - Identified missing values (no missing values).
 - Exploratory Data Analysis.
-- Used **Linear Regression** model to predict the target feature (continuous).
+- Train **Linear Regression** model to predict the target feature (continuous).
 - Evaluate the model's performance using **Mean Absolute Error** and **Root Mean Squared Error**.
 ## Results and Insights:
 -- The model's performance is evaluated using the Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) metrics.
@@ -66,7 +66,7 @@ Predict which customers are likely to accept a personal loan offer.
 - Identified missing values.
 - Exploratory Data Analysis.
 - Made Visuals to analyze the feature distribution.
-- Used **Logistic Regression** model to predict the target feature.
+- Train **Logistic Regression** model to predict the target feature.
 - Evaluate model's performance using Confusion Matrix, Accuracy and Classification Report.
 ## Results and Insights:
 - It can be concluded that the customers having longer call duration with the bank are more likely to accept the offer to deposit money.
