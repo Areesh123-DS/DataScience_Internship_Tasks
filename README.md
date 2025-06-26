@@ -4,7 +4,7 @@ Each task requires:
 - Python
 - Pandas
 - Numpy
-- Skicit-learn
+- Scikit-learn
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
@@ -56,7 +56,8 @@ Estimate the medical insurance claim amount based on personal data.
 - Evaluate the model's performance using **Mean Absolute Error** and **Root Mean Squared Error**.
 ## Results and Insights:
 -- The model's performance is evaluated using the Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) metrics.
-- Mean Absolute Error is 4181.19 and Root Mean Squared Error is 5796.28. As these values are large so log transformation can be applied to the data to reduce the effect of outliers and improve the model's performance.
+- Mean Absolute Error is 4181.19 and Root Mean Squared Error is 5796.28.
+- Due to **high variance** in charges, log transformation can be applied to the data to reduce the effect of outliers and improve the model's performance.
 ---
 # Task_5 Personal Loan Acceptance Prediction:
 ## Objective:
