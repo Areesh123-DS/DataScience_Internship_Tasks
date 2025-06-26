@@ -28,7 +28,7 @@ Predict whether a loan applicant is likely to default on a loan.
 - Train Logistic Regression Model for predicting the target feature Loan_Status.
 - Evaluate model performance using accuracy, confusion matrix and classification report.
 ## Results and Insights:
-- Model used is **Logistic Regressio**.
+- Model used is **Logistic Regression**.
 - Its accuracy is **0.788617**(78%).
 - Some of the features have no importance in accordance to the target variable so they are removed from the model.
  ---
